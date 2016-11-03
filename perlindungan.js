@@ -62,7 +62,7 @@
     	if (isCtrl) {
     		for (i = 0; i < forbiddenKeys.length; i++) {
     			if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase()) {
-    				alert('Key combination CTRL + ' + String.fromCharCode(key) + ' has been disabled.');
+    				alert('Maaf, fungsi CTRL + ' + String.fromCharCode(key) + ' telah dipadamkan. Sila tekan butang share.');
     				return false;
     			}
     		}
